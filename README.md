@@ -45,6 +45,8 @@ will notice.
 ```
 .
 ├── LICENSE
+├── .jsbeautify - Configuration file for js-beautify
+├── .eslintrc - Configuration file for ESlint
 ├── README.md
 ├── config.js - Parses environment variables, a la 12-factor app
 ├── controllers - All our controllers/handlers
@@ -65,7 +67,7 @@ will notice.
     └── movie-list.handlebars
 ```
 
-# How to get started
+## How to get started
 
 You should cloned this to your development environment.
 The you'll need Node.js installed. You should then run
@@ -79,3 +81,11 @@ You'll need to deploy this application to the interwebs
 somewhere. When you submit the assignment, you'll submit
 your repo on GitHub and the URL of your app running on
 the web.
+
+## Random
+
+This code includes configuration files for 
+[js-beautify](https://github.com/beautify-web/js-beautify)
+and [ESlint](https://eslint.org/). You can use these two
+tools to improve your enjoyment of writting JavaScript:
+you'll have fewer errors and better code.
