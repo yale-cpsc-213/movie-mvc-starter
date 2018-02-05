@@ -1,0 +1,11 @@
+#movies {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#movies td, #movies th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#movies tr:nth-child(odd){background-color: #f2f2f2;}

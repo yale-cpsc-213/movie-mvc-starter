@@ -1,0 +1,30 @@
+{
+  "name": "movie-mvc-completed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yale-cpsc-213/movie-mvc-completed.git"
+  },
+  "author": "Kyle Jensen and others",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/yale-cpsc-213/movie-mvc-completed/issues"
+  },
+  "homepage": "https://github.com/yale-cpsc-213/movie-mvc-completed#readme",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "js-beautify": "^1.7.5"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "pg-promise": "^7.4.1"
+  }
+}
